@@ -1,12 +1,11 @@
 
-import * as React from 'react';
+import React,{ StrictMode } from 'react';
 // import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { createRoot } from 'react-dom/client';
-import { StrictMode } from 'react';
 
 const rootElement = 
 document.getElementById('root');
